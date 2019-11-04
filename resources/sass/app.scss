@@ -1,0 +1,9 @@
+@tailwind base;
+
+@tailwind components;
+
+.pagination {
+    @apply flex items-center justify-end;
+}
+
+@tailwind utilities;
