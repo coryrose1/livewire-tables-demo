@@ -1,5 +1,7 @@
-<?php
-
+<div>
+    <div class="rounded-lg bg-gray-800 mb-12 px-6">
+        <pre class="scrollbar-none">
+            <code class="scrolling-touch language-php">
 namespace App\Http\Livewire\Tables;
 
 use Coryrose\LivewireTables\LivewireModelTable;
@@ -10,11 +12,9 @@ class UsersTable extends LivewireModelTable
 {
     use WithPagination;
 
-    public $paginate = true;
+    public $paginate = {{ $paginate ? 'true' : 'false' }};
     public $pagination = 10;
     public $hasSearch = true;
-
-    protected $listeners = ['paginateChanged' => 'setPaginate'];
 
     public $fields = [
         [
@@ -25,7 +25,6 @@ class UsersTable extends LivewireModelTable
             'sortable' => true,
             'searchable' => true,
         ],
-
         [
             'title' => 'Name',
             'name' => 'name',
@@ -61,10 +60,8 @@ class UsersTable extends LivewireModelTable
     {
         return ['address'];
     }
-
-    // DEMO METHODS
-    public function setPaginate()
-    {
-        $this->paginate = !$this->paginate;
-    }
 }
+            </code>
+        </pre>
+    </div>
+</div>
