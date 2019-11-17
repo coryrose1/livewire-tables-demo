@@ -28,11 +28,11 @@
     </div>
     <div class="md:flex">
         <div class="md:w-1/2 px-2 md:px-6">
-            <h4 class="text-xl mb-4 font-semibold">Table Class Component</h4>
+            <h4 class="text-xl mb-4 font-semibold">App\Http\Livewire\Tables\UsersTable.php</h4>
             @livewire('php-display')
         </div>
         <div class="md:w-1/2 px-2 md:px-6">
-            <h4 class="text-xl mb-4 font-semibold">Generated View Component</h4>
+            <h4 class="text-xl mb-4 font-semibold">/resources/views/livewire/tables/users-table.blade.php</h4>
             @livewire('html-display')
         </div>
     </div>

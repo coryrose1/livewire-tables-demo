@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="160432e3-65bd-4dc4-80d8-9a5c7ac46e79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/sass/_prism-theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Traits/WithPagination.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/PhpDisplay.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/PhpDisplay.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Tables/UsersTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Tables/UsersTable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/livewire-tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/livewire-tables.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/html-display.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/html-display.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/php-display.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/php-display.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/table-options.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/table-options.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/tables/users-table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/tables/users-table.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,6 +146,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/livewire/tables" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -167,6 +179,13 @@
       <workItem from="1572887322525" duration="1953000" />
       <workItem from="1572953619992" duration="989000" />
       <workItem from="1572984298593" duration="5035000" />
+      <workItem from="1573066533136" duration="3616000" />
+      <workItem from="1573075659072" duration="427000" />
+      <workItem from="1573126107537" duration="1437000" />
+      <workItem from="1573163652555" duration="1000" />
+      <workItem from="1573998351334" duration="892000" />
+      <workItem from="1573999840733" duration="421000" />
+      <workItem from="1574003205742" duration="1002000" />
     </task>
     <servers />
   </component>

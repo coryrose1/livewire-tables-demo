@@ -11,6 +11,6 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\User::class, 50)->states('has_address')->create();
+        factory(App\User::class, 25)->states('has_address')->create();
     }
 }

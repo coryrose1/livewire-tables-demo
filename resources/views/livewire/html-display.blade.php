@@ -6,7 +6,7 @@
     @if ($hasSearch)
     &lt;div>
         &lt;div style="position: relative; display: inline-block;">
-        &lt;input type="text" wire:model="search" />
+        &lt;input class="border" type="text" wire:model="search" />
         @if ($search)
         &lt;button wire:click="clearSearch" style="position: absolute; right: 5px;">
             &#10005;
@@ -20,7 +20,7 @@
         &lt;tr>
 			&lt;th wire:click="$emit('sortColumn', 0)">ID&lt;/th>
 			&lt;th wire:click="$emit('sortColumn', 1)">Name&lt;/th>
-			&lt;th class="bolded" wire:click="$emit('sortColumn', 2)">City&lt;/th>
+			&lt;th wire:click="$emit('sortColumn', 2)">City&lt;/th>
         &lt;/tr>
         &lt;/thead>
         &lt;tbody>
@@ -28,7 +28,7 @@
             &lt;tr>
                 &lt;td>{{ $row->id }}&lt;/td>
                 &lt;td>{{ $row->name }}&lt;/td>
-                &lt;td class="bolded bg-green">{{ $row->address->city }}&lt;/td>
+                &lt;td>{{ $row->address->city }}&lt;/td>
             &lt;/tr>
         @endforeach
         &lt;/tbody>

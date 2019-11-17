@@ -8,8 +8,12 @@ use ReflectionClass;
 class PhpDisplay extends Component
 {
     public $paginate = true;
+    public $hasSearch = true;
 
-    protected $listeners = ['paginateChanged' => 'setPaginate'];
+    protected $listeners = [
+        'paginateChanged' => 'setPaginate',
+        'searchableChanged' => 'setSearchable'
+    ];
 
 
     public function render()
@@ -21,5 +25,10 @@ class PhpDisplay extends Component
     public function setPaginate()
     {
         $this->paginate = !$this->paginate;
+    }
+
+    public function setSearchable()
+    {
+        $this->hasSearch = !$this->hasSearch;
     }
 }

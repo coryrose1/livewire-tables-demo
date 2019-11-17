@@ -41,7 +41,7 @@ return [
         'tr' => null,
         'td' => null,
         'search_wrapper' => null,
-        'search_input' => null,
+        'search_input' => 'border',
         'sorted_asc' => null,
         'sorted_desc' => null,
         'pagination_wrapper' => null,

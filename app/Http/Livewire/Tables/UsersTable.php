@@ -3,6 +3,7 @@
 namespace App\Http\Livewire\Tables;
 
 use Coryrose\LivewireTables\LivewireModelTable;
+use Illuminate\Pagination\Paginator;
 use Livewire\WithPagination;
 use App\User;
 
@@ -14,7 +15,11 @@ class UsersTable extends LivewireModelTable
     public $pagination = 10;
     public $hasSearch = true;
 
-    protected $listeners = ['paginateChanged' => 'setPaginate'];
+    protected $listeners = [
+        'sortColumn' => 'setSort',
+        'paginateChanged' => 'setPaginate',
+        'searchableChanged' => 'setSearchable'
+    ];
 
     public $fields = [
         [
@@ -37,8 +42,8 @@ class UsersTable extends LivewireModelTable
         [
             'title' => 'City',
             'name' => 'address.city',
-            'header_class' => 'bolded',
-            'cell_class' => 'bolded bg-green',
+            'header_class' => '',
+            'cell_class' => '',
             'sortable' => true,
             'searchable' => true,
         ],
@@ -67,4 +72,10 @@ class UsersTable extends LivewireModelTable
     {
         $this->paginate = !$this->paginate;
     }
+
+    public function setSearchable()
+    {
+        $this->hasSearch = !$this->hasSearch;
+    }
+
 }
