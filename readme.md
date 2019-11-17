@@ -13,6 +13,8 @@ Generate your application key, set up a database, and run:
 ```
 php artisan migrate
 php artisan db:seed
+npm install
+npm run dev
 ```
 
 Serve and visit in your browser to view the magical Livewire table.
